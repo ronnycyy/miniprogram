@@ -1,0 +1,9 @@
+<view class="custom" style="padding-top:{{statusBarHeight}}px">
+  <image src='/images/logo.png' style="width: {{logoWidth}}px; height: {{logoHeight}}px;"></image>
+  <text>应用标题</text>
+</view>
+
+<view class="body" style="padding-top: {{statusBarHeight + logoHeight}}px;">
+  <text style="display: block;">状态栏高度: {{statusBarHeight}}px</text>
+  <text style="display: block;">胶囊体高度: {{capsuleHeight}}px</text>
+</view>
